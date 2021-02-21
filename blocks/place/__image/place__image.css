@@ -1,0 +1,12 @@
+.place__image {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 767px) {   /*выяснить как сделать чтобы картинка ханимала всю ширину другим способом*/
+  .place__image{
+    width: calc(100% + 32px);
+    position: relative;
+    left: -16px;
+  }
+}

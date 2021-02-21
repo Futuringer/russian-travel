@@ -1,0 +1,6 @@
+.place__link {
+  margin-top: 102px; /* Выяснить почему не работает */
+  color: white;
+  font-size: 18px;
+  line-height: 22px;
+}

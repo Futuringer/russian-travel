@@ -1,0 +1,25 @@
+.cover__title {
+  grid-column: 1;
+  grid-row: 1;
+  margin: 0 auto;
+  max-width: 560px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  align-self: end;
+  z-index: 2;
+  text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 767px) {
+  .cover__title {
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+
+.cover__title:hover ~ .cover__overlay {
+  opacity: 0.8;
+}
