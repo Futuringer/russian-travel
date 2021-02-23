@@ -1,5 +1,4 @@
 .header__lang-switch {
-  width: 77px;
   display: flex;
   justify-content: space-between;
   margin-top: 16px;
@@ -7,7 +6,6 @@
 
 @media screen and (max-width: 767px) {
   .header__lang-switch {
-    width: 62px;
     margin-top: 5px;
   }
 }

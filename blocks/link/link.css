@@ -1,4 +1,5 @@
 .link {
+  transition: 0.3s;
 }
 
 .link:hover{

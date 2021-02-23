@@ -3,10 +3,9 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 767px) {   /*выяснить как сделать чтобы картинка ханимала всю ширину другим способом*/
+@media screen and (max-width: 767px) {  
   .place__image{
     width: calc(100% + 32px);
-    position: relative;
-    left: -16px;
+    margin-left: -16px;
   }
 }
